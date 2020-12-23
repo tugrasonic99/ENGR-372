@@ -13,7 +13,9 @@
     <div class="login-window">
         <form class="login-form" method="post" action="">
             <div class="input-container">
-                <h1 class="heading">Track That</h1>
+                <div class="logo-container">
+                    <img src="img/head-logo-login.svg" alt="img/head-logo-login.png">
+                </div>
                 <h3 class="subheading">Login</h3>
             </div>
             <div class="input-container">
@@ -28,9 +30,16 @@
             <div class="input-container">
                 <input type="submit" name="submit-button" class="input-button" value="Login"
                        formaction="login-action.php">
-                <a class="create-user" href="createuser.php"> Create new user</a>
+                <a class="create-user" href="createuser.php">Create new user</a>
             </div>
         </form>
+    </div>
+    <div class="site-map">
+        <a href="welcome.php">welcome</a>
+        <span>&#183;</span>
+        <a href="">help</a>
+        <span>&#183;</span>
+        <a href="">about</a>
     </div>
 </div>
 </body>

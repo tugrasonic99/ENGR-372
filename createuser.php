@@ -16,12 +16,14 @@ include "is-logged-in.php";
     <div class="login-window">
         <form class="login-form" action="" method="post">
             <div class="input-container">
-                <h1 class="heading">Track That</h1>
+                <div class="logo-container">
+                    <img src="img/head-logo-login.svg" alt="img/head-logo-login.png">
+                </div>
                 <h3 class="subheading">Create new user</h3>
             </div>
             <div class="input-container">
-                <label class="input-title" for="">Department Id:</label>
-                <input class="login-input" type="text" name="company_id" value="" placeholder="Enter Department that you want to join">
+                <label class="input-title" for="">Department:</label>
+                <input class="login-input" type="text" name="company_id" value="" placeholder="Enter the Department">
             </div>
             <div class="input-container">
                 <label class="input-title" for="">Username:</label>
@@ -45,6 +47,13 @@ include "is-logged-in.php";
                 </a>
             </div>
         </form>
+    </div>
+    <div class="site-map">
+        <a href="welcome.php">welcome</a>
+        <span>&#183;</span>
+        <a href="">help</a>
+        <span>&#183;</span>
+        <a href="">about</a>
     </div>
 </div>
 </body>

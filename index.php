@@ -5,7 +5,7 @@ session_start();
 
 
 if (empty($_SESSION["is_logged_in"])) { // if there is no user logged in if returns null, and redirect to the login page
-    header("Location: login.php");
+    header("Location: welcome.php");
 } elseif ($_SESSION["is_logged_in"] == true) { // if there is a user;
 
     $username = $full_name = $id = $company_id = "";
@@ -53,12 +53,22 @@ if(isset($_GET["logout"])) {
     <meta charset="UTF-8">
     <title>Track That - Home</title>
     <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/welcome.css">
+            
 </head>
+<style>.content {
+  max-width: 500px;
+  margin: auto;
+}</style>
 <body>
+    <div class="content">
+    <div class="global-header">
+        <div class="global-container">
 <h1>Welcome <?php echo $full_name; ?>!</h1>
 <h3>Department: <?php echo $company_id; ?></h3>
 <a href="index.php?logout=true"><button class="input-button" type="button">logout</button></a>
-<a href="status-show.php"><button type="button">Show Status</button></a>
-<a href="order-new.php"><button type="button">Create an Order</button></a>
+<a href="status-show.php"><button class="input-button" type="button">Show Status</button></a>
+<a href="order-new.php"><button class="input-button" type="button">Create an Order</button></a>
+        </div></div></div>
 </body>
 </html>

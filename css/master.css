@@ -1,0 +1,132 @@
+.main-container {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-window {
+    width: 30%;
+    min-width: 500px;
+    margin: auto;
+}
+
+.login-form {
+    margin-top: 100px;
+    padding: 50px 75px 75px 75px;
+    background-color: #ffffff;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.login-input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+.input-container {
+    width: auto;
+}
+
+.input-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #212226;
+    padding: 12px 30px;
+    background-color: #00A82D;
+    border: 0;
+    border-radius: 4px;
+    width: inherit;
+}
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #212226;
+    padding: 12px 30px;
+    background-color: #00A82D;
+    border: 0;
+    border-radius: 4px;
+    width: inherit;
+}
+
+.input-button:hover {
+    background-color: #00C134;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-container img {
+    width: 211px;
+    margin: auto;
+}
+
+.subheading {
+    text-align: center;
+    width: auto;
+}
+
+.help-blockk {
+    font-size: 13px;
+    font-style: italic;
+    color: crimson;
+}
+
+.create-user {
+    color: #212226;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.create-user:hover {
+    color: #00A82D;
+}
+
+.site-map {
+    text-align: center;
+    margin: 30px auto 10px auto;
+}
+
+.site-map a {
+    color: #212226;
+    font-size: 14px;
+}
+
+.site-map a:hover {
+    color: #00A82D;
+}
+
+.site-map span {
+    margin: auto 10px auto 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F9F9F9;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212226;
+    text-align: left;
+}
+
+label {
+    color: #212226;
+    margin-bottom: 0;
+}
